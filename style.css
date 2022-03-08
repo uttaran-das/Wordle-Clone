@@ -1,0 +1,140 @@
+* {
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+    background-color: black;
+}
+
+body{
+    font: Arial, Helvetica, Sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 40%;
+}
+
+#title{
+    color: gainsboro;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.4rem 0 0.4rem 0;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#board{
+    width: 250px;
+    height: 280px;
+    /*background-color: aqua;*/
+    margin: auto;
+    margin-top: 0.1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#answer{
+    color: white;
+}
+
+.tile{
+    /*Box*/
+    border : 2px solid lightgray;
+    width: 40px;
+    height: 40px;
+    margin: 2.5px;
+
+    /*Text*/
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct{
+    background-color: green;
+    color: white;
+    border-color: black;
+}
+
+.present{
+    background-color: rgb(162, 165, 12);
+    color: white;
+    border-color: black;
+}
+
+.absent{
+    background-color: grey;
+    color: white;
+    border-color: black;
+}
+
+.keyboard-row{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+}
+
+.key-tile{
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter-key-tile{
+    width: 76px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {display:flex; flex-flow:row wrap;}
+
+.alignleft {
+    width:33.33333%;
+    text-align:left;
+}
+.aligncenter {
+    width:33.33333%;
+    text-align:center;
+    color: gainsboro;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.4rem 0 0.4rem 0;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.alignright {
+    width: fit-content;
+    color: white;
+    background-color: royalblue;
+    justify-content: right;
+    text-align:right;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.alignright:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
