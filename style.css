@@ -132,9 +132,10 @@ hr{
     text-align:right;
     border-radius: 8px;
     transition-duration: 0.4s;
+    margin: auto;
 }
 
 .alignright:hover {
     background-color: #4CAF50; /* Green */
     color: white;
-  }
+}
