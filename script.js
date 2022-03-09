@@ -162,7 +162,7 @@ function update(){
         else {
             curTile.classList.add("absent");
             let keyTile = document.getElementById("Key"+letter);
-            keyTile.classList.add("absent");
+            if(!keyTile.classList.contains("correct") && !keyTile.classList.contains("present")) keyTile.classList.add("absent");
         }
     }
 
